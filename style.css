@@ -343,18 +343,21 @@ a:hover { border-bottom-color: var(--accent); }
 .team-card:hover { background: var(--bg); }
 
 .team-photo {
-  width: 72px;
-  height: 72px;
+  width: 90px;
+  height: 90px;
   border-radius: 4px;
   object-fit: cover;
   object-position: top;
+  margin-top: .7rem;
   margin-bottom: .9rem;
   border: 1px solid var(--border);
+  order: 2;
 }
 
 .team-photo-placeholder {
-  width: 72px;
-  height: 72px;
+  order: 2;
+  width: 90px;
+  height: 90px;
   border-radius: 4px;
   background: var(--bg);
   border: 1px solid var(--border);
@@ -371,6 +374,7 @@ a:hover { border-bottom-color: var(--accent); }
 }
 
 .team-name {
+  order: 1;
   font-size: .95rem;
   font-weight: 600;
   color: var(--text);
@@ -379,6 +383,7 @@ a:hover { border-bottom-color: var(--accent); }
 }
 
 .team-institution {
+  order: 3;
   font-size: .78rem;
   color: var(--muted);
   margin-bottom: .05rem;
@@ -386,6 +391,7 @@ a:hover { border-bottom-color: var(--accent); }
 }
 
 .team-school {
+  order: 3;
   font-size: .73rem;
   color: var(--faint);
   margin-bottom: .3rem;
@@ -393,6 +399,7 @@ a:hover { border-bottom-color: var(--accent); }
 }
 
 .team-role {
+  order: 3;
   font-size: .68rem;
   font-weight: 500;
   letter-spacing: .07em;
@@ -402,6 +409,7 @@ a:hover { border-bottom-color: var(--accent); }
 }
 
 .team-years {
+  order: 3;
   font-family: 'DM Mono', monospace;
   font-size: .68rem;
   color: var(--faint);
@@ -409,6 +417,7 @@ a:hover { border-bottom-color: var(--accent); }
 }
 
 .team-desc {
+  order: 3;
   font-size: .82rem;
   line-height: 1.65;
   color: var(--muted);
@@ -417,6 +426,7 @@ a:hover { border-bottom-color: var(--accent); }
 }
 
 .team-links {
+  order: 3;
   display: flex;
   flex-wrap: wrap;
   gap: .4rem;
