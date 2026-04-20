@@ -6,14 +6,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=DM+Mono:wght@300;400&display=swap');
 
 :root {
-  --white:     #ffffff;
-  --bg:        #f9f9f9;
-  --border:    #e2e2e2;
+  --white:     #f6f7f5;      /* cool linen background */
+  --bg:        #e4eae6;      /* sage green panels */
+  --border:    #d4d9d5;
   --text:      #1a1a1a;
-  --muted:     #555555;
-  --faint:     #888888;
-  --accent:    #2d6a4f;      /* single forest green accent */
-  --accent-bg: #edf4f0;
+  --muted:     #4a4a4a;
+  --faint:     #787878;
+  --accent:    #3d6b68;      /* slate teal accent */
+  --accent-bg: #dde8e7;
   --nav-h:     56px;
 }
 
