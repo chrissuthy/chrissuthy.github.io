@@ -445,10 +445,18 @@ a:hover { border-bottom-color: var(--accent); }
 }
 
 .team-link:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-  background: var(--accent-bg);
+  border-color: currentColor;
+  background: #f8f8f8;
 }
+
+/* Brand colours */
+.team-link.link-web      { color: #3d6b68; }
+.team-link.link-linkedin { color: #0077b5; }
+.team-link.link-twitter  { color: #000000; }
+.team-link.link-bluesky  { color: #0085ff; }
+.team-link.link-rg       { color: #00ccbb; }
+.team-link.link-scholar  { color: #4285f4; }
+.team-link.link-orcid    { color: #a6ce39; }
 
 .team-link svg {
   width: 13px; height: 13px;
