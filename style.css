@@ -458,6 +458,7 @@ a:hover { border-bottom-color: var(--accent); }
 }
 
 /* Brand colours */
+.team-link.link-github  { color: #24292e; }
 .team-link.link-web      { color: #3d6b68; }
 .team-link.link-linkedin { color: #0077b5; }
 .team-link.link-twitter  { color: #000000; }
