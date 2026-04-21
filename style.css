@@ -340,12 +340,30 @@ a:hover { border-bottom-color: var(--accent); }
 
 .team-card:hover { background: var(--bg); }
 
-/* top row: photo left, meta right */
+/* name sits above the photo row */
+.team-name {
+  font-size: .92rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: .5rem;
+  line-height: 1.3;
+}
+
+/* photo row: photo col left, meta right */
 .team-card-top {
   display: flex;
   gap: .9rem;
   align-items: flex-start;
   margin-bottom: .85rem;
+}
+
+/* photo + optional institution stacked vertically */
+.team-photo-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  gap: .35rem;
 }
 
 .team-photo {
@@ -355,7 +373,6 @@ a:hover { border-bottom-color: var(--accent); }
   object-fit: cover;
   object-position: top;
   border: 1px solid var(--border);
-  flex-shrink: 0;
 }
 
 .team-photo-placeholder {
@@ -370,20 +387,11 @@ a:hover { border-bottom-color: var(--accent); }
   font-size: .5rem;
   color: var(--faint);
   font-family: 'DM Mono', monospace;
-  flex-shrink: 0;
   text-align: center;
   line-height: 1.6;
 }
 
 .team-meta { flex: 1; min-width: 0; }
-
-.team-name {
-  font-size: .92rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: .1rem;
-  line-height: 1.3;
-}
 
 .team-institution {
   font-size: .75rem;
