@@ -3,8 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chris Sutherland - Spatial Population Ecology</title>
+  <title>Chris Sutherland — Spatial Population Ecology</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .roles-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 .5rem;
+    }
+    .roles-list li {
+      font-size: .82rem;
+      color: var(--muted);
+      padding-left: 0;
+      margin-bottom: .3rem;
+      line-height: 1.5;
+    }
+    .roles-list li::before { content: none; }
+    .roles-list a {
+      color: var(--accent);
+      border-bottom: 1px solid transparent;
+      transition: border-color .15s;
+    }
+    .roles-list a:hover { border-bottom-color: var(--accent); }
+  </style>
 </head>
 <body>
 
@@ -25,7 +46,7 @@
 
   <div class="page-header">
     <h1>Chris Sutherland</h1>
-    <p>Reader in Statistics (Statistical Ecology) &mdash; University of St Andrews</p>
+    <p>Reader — Statistical Ecology &middot; <a href="https://www.creem.st-andrews.ac.uk/" target="_blank" rel="noopener">CREEM</a> &middot; University of St Andrews</p>
   </div>
 
   <main>
@@ -33,47 +54,43 @@
 
       <div class="profile-grid">
 
-        <!-- Replace with: <img src="images/me.jpg" alt="Chris Sutherland" class="profile-img" /> -->
-        <div class="profile-img-placeholder">Add photo<br>images/me.jpg</div>
+        <img src="images/me.jpg" alt="Chris Sutherland" class="profile-img" />
 
         <div>
           <div class="profile-name">Chris Sutherland</div>
-          <div class="profile-role">Reader (Statistical Ecology) - University of St Andrews</div>
-          <div class="profile-role">Associate Editor - Methods in Ecology & Evolution</div>
-          <div class="profile-role">Associate Editor - Journal of Applied Ecology</div>
+          <div class="profile-role">Reader — Statistical Ecology · University of St Andrews</div>
+
+          <ul class="roles-list" style="margin-top:.6rem;">
+            <li><a href="https://stats.wp.st-andrews.ac.uk/" target="_blank" rel="noopener">Co-head, Statistics Division</a></li>
+            <li><a href="https://besjournals.onlinelibrary.wiley.com/journal/2041210x" target="_blank" rel="noopener">Associate Editor, Methods in Ecology and Evolution</a></li>
+            <li><a href="https://besjournals.onlinelibrary.wiley.com/journal/13652664" target="_blank" rel="noopener">Associate Editor, Journal of Applied Ecology</a></li>
+            <li><a href="https://ncse.uk/" target="_blank" rel="noopener">Deputy Director, NCSE</a></li>
+          </ul>
 
           <h2>Research</h2>
           <p>
-            My primary research interest is spatial population ecology, with a specific focus on
-            characterising how space use, dispersal, and demography vary in response to changes
-            in density, the environment, and landscape structure. The overarching theme of my
-            research is an emphasis on increasing the biological realism of modern eco-statistical
-            models so we can best test spatial ecological theory.
+            I work at the intersection of spatial ecology and statistics, developing
+            biologically realistic models to understand how space use, dispersal, and
+            demography respond to density, environment, and landscape structure. The goal
+            is to turn ecological theory into practical tools for conservation and management.
           </p>
 
           <h2>Teaching</h2>
-          <p>At the University of St Andrews I teach two courses in the
-            <a href="https://www.st-andrews.ac.uk/subjects/statistics/statistical-ecology-msc/" target="_blank" rel="noopener">Statistical Ecology MSc programme</a>:
+          <p>
+            I teach on the <a href="https://www.st-andrews.ac.uk/subjects/statistics/statistical-ecology-msc/" target="_blank" rel="noopener">Statistical Ecology MSc</a>
+            at St Andrews, which I also coordinate. Current courses:
           </p>
           <ul>
             <li>Modelling Wildlife Population Dynamics (MT5767)</li>
             <li>Estimating Animal Abundance and Biodiversity (MT5751)</li>
           </ul>
 
-          <p style="margin-top:1rem;">Previously at the University of Massachusetts–Amherst:</p>
-          <ul>
-            <li>Introduction to Quantitative Ecology (NRC 290b)</li>
-            <li>Applied Ecological Statistics (ECO 636)</li>
-            <li>Programming in R (Honors college seminar)</li>
-            <li>Tools for Science Communication (ECO 691)</li>
-          </ul>
-
-          <h2>MSc Programme</h2>
-          <p>
-            I coordinate the <a href="https://www.st-andrews.ac.uk/subjects/statistics/statistical-ecology-msc/" target="_blank" rel="noopener">Statistical Ecology MSc</a>
-            at St Andrews — a one-year taught degree where students learn the modern statistical
-            methods used by professionals in ecology.
+          <p style="margin-top:1rem;">
+            Previously at UMass Amherst I taught quantitative ecology, applied ecological
+            statistics, R programming, and science communication at both undergraduate
+            and graduate level.
           </p>
+
         </div>
       </div>
 
