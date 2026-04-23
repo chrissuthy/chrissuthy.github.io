@@ -41,28 +41,19 @@ nav {
   height: var(--nav-h);
   background: var(--white);
   border-bottom: 1px solid var(--border);
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 2.5rem;
 }
 
-nav .nav-brand { justify-self: start; }
-nav .nav-links { justify-self: center; }
-nav .nav-hamburger { justify-self: end; }
-
 .nav-brand {
-  display: flex;
-  align-items: center;
-  gap: .55rem;
   font-size: .85rem;
   font-weight: 600;
   letter-spacing: .01em;
   color: var(--text);
   text-decoration: none;
 }
-
-
 
 .nav-links {
   display: flex;
@@ -154,7 +145,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* links centred via flex on .nav-links */
   gap: 1rem;
   background: var(--bg);
 }
@@ -258,9 +248,9 @@ footer {
 
 /* ── SECTION ─────────────────────────────────── */
 .section {
-  max-width: 1080px;
+  max-width: 780px;
   margin: 0 auto;
-  padding: 3rem 2.5rem;
+  padding: 3.5rem 2.5rem;
 }
 
 .section-wide {
