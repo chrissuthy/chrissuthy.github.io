@@ -48,11 +48,29 @@ nav {
 }
 
 .nav-brand {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
   font-size: .85rem;
   font-weight: 600;
   letter-spacing: .01em;
   color: var(--text);
   text-decoration: none;
+}
+
+.nav-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: var(--accent);
+  color: var(--white);
+  font-size: .68rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  border-radius: 5px;
+  flex-shrink: 0;
 }
 
 .nav-links {
