@@ -202,12 +202,11 @@ footer {
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: calc(100vh - var(--nav-h));
   border-bottom: 1px solid var(--border);
 }
 
 .hero-left {
-  padding: 5rem 3rem 5rem 2.5rem;
+  padding: 2.5rem 3rem 2.5rem 2.5rem;
   border-right: 1px solid var(--border);
   display: flex;
   flex-direction: column;
@@ -240,7 +239,7 @@ footer {
 }
 
 .hero-right {
-  padding: 5rem 2.5rem 5rem 3rem;
+  padding: 2.5rem 2.5rem 2.5rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -568,7 +567,7 @@ a:hover { border-bottom-color: var(--accent); }
 
 .alumni-row {
   display: grid;
-  grid-template-columns: 170px 1fr auto;
+  grid-template-columns: 220px 1fr auto;
   gap: .6rem 2rem;
   align-items: baseline;
   padding: .75rem 0;
