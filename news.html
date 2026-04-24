@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sutherland Ecology — Spatial Population Ecology</title>
+  <title>News — Spatial Population Ecology</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-
 </head>
 <body>
 
@@ -19,12 +18,12 @@
       Sutherland Ecology
     </a>
     <ul class="nav-links">
-      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="chris.html">Chris</a></li>
       <li><a href="people.html">People</a></li>
       <li><a href="publications.html">Publications</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="news.html">News</a></li>
+      <li><a href="news.html" class="active">News</a></li>
     </ul>
     <button class="nav-hamburger" id="hamburger" aria-label="Menu">
       <span></span><span></span><span></span>
@@ -33,63 +32,45 @@
 
   <!-- Mobile drawer -->
   <div class="nav-drawer" id="nav-drawer">
-    <a href="index.html" class="active">Home</a>
+    <a href="index.html">Home</a>
     <a href="chris.html">Chris</a>
     <a href="people.html">People</a>
     <a href="publications.html">Publications</a>
     <a href="contact.html">Contact</a>
-    <a href="news.html">News</a>
+    <a href="news.html" class="active">News</a>
   </div>
 
-    <main>
-    <section class="hero">
+  <div class="page-header">
+    <h1>News</h1>
+  </div>
 
-      <div class="hero-left">
-        <p class="hero-eyebrow">University of St Andrews</p>
-        <h1>Spatial Population Ecology</h1>
-        <p class="hero-desc">
-          We develop biologically realistic statistical models to understand the spatial
-          processes driving ecological dynamics — applying them to individuals, populations,
-          and communities to solve real conservation and management problems.
-        </p>
-      </div>
-
-      <div class="hero-right">
-        <div class="hero-stat">
-          <div class="hero-stat-label">Focus</div>
-          <div class="hero-stat-text">Space use, dispersal and demography across density, environment and landscape gradients</div>
-        </div>
-        <div class="hero-stat">
-          <div class="hero-stat-label">Approach</div>
-          <div class="hero-stat-text">Eco-statistical modelling grounded in biological realism and spatial ecological theory</div>
-        </div>
-        <div class="hero-stat">
-          <div class="hero-stat-label">Goal</div>
-          <div class="hero-stat-text">Quantitative tools that translate theory into conservation action</div>
-        </div>
-      </div>
-
-    </section>
-
-  <!-- NEWS TEASER -->
-  <section class="news-section">
-    <div class="news-section-header">
-      <h2>Latest</h2>
-      <a class="news-see-all" href="news.html">View all news &rarr;</a>
-    </div>
-    <div class="news-list">
+  <main>
+    <div class="news-page-list">
 
       <!--
-        NEWS ROW TEMPLATE — copy and paste, newest at top.
-        Tags: tag-paper / tag-milestone / tag-event
-        Remove the href and news-arrow if there is no link.
+        ADD NEW ITEMS AT THE TOP — newest first.
+        Copy one of the blocks below, update date/tag/text/link.
 
-        <a class="news-row" href="LINK" target="_blank" rel="noopener">
+        LINKED item (paper, event with URL):
+        <a class="news-row" href="URL" target="_blank" rel="noopener">
           <span class="news-date">Mon YYYY</span>
           <span class="news-tag tag-paper">Paper</span>
-          <span class="news-headline">Headline text here.</span>
+          <span class="news-headline">Headline text.</span>
           <span class="news-arrow">&rarr;</span>
         </a>
+
+        UNLINKED item (milestone, internal news):
+        <div class="news-row">
+          <span class="news-date">Mon YYYY</span>
+          <span class="news-tag tag-milestone">Milestone</span>
+          <span class="news-headline">Headline text.</span>
+          <span class="news-arrow"></span>
+        </div>
+
+        TAG OPTIONS:
+          tag-paper      (teal)
+          tag-milestone  (green)
+          tag-event      (warm brown)
       -->
 
       <a class="news-row" href="https://besjournals.onlinelibrary.wiley.com/journal/2041210x" target="_blank" rel="noopener">
@@ -128,7 +109,6 @@
       </a>
 
     </div>
-  </section>
   </main>
 
   <footer>
@@ -150,5 +130,6 @@
       });
     });
   </script>
+
 </body>
 </html>
