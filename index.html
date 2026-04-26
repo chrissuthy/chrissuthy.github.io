@@ -7,6 +7,24 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 
+  <style>
+    .hero-title {
+      display: flex;
+      flex-direction: column;
+      gap: .15rem;
+      border-left: 3px solid var(--accent);
+      padding-left: 1.1rem;
+      margin-left: -.1rem;
+    }
+    .hero-title span {
+      display: block;
+      line-height: 1.15;
+    }
+    .hero-title em {
+      font-style: normal;
+      color: var(--accent);
+    }
+  </style>
 </head>
 <body>
 
@@ -45,7 +63,11 @@
     <section class="hero">
 
       <div class="hero-left">
-        <h1>Applied Quantitative Ecology</h1>
+        <h1 class="hero-title">
+          <span><em>A</em>pplied</span>
+          <span><em>Q</em>uantitative</span>
+          <span><em>E</em>cology</span>
+        </h1>
       </div>
 
       <div class="hero-right">
